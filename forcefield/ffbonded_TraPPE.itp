@@ -1,0 +1,147 @@
+[ bondtypes ]
+;i        j        type     b0       kb
+;EC
+;CH2-O(-C=O) cyclic carbonate (Masia 2004) 
+ C_2241d  O_0241d    1      0.1430   132942.4
+;C=O acrylate, carbonate (TraPPE 2009, Masia 2004 force constant) 
+ C_0332c  O_0132a    1      0.1200   407329.1 
+;O-C(=O) cyclic carbonate (Masia 2004) 
+ C_0332c  O_0241d    1      0.1360   143348.0
+;CH2-CH2 cyclic carbonate (Masia 2004)
+ C_2241d  C_2241d    1      0.1520   116181.3
+
+;PC
+;CH-CH2 cyclic carbonate (B3LYP-D3/6-311++G[2d,2p], 2016) 
+ C_1341d  C_2241d    1      0.1531   224262.4
+
+;CH-O(-C=O) cyclic carbonate (B3LYP-D3/6-311++G[2d,2p], 2016) 
+ C_1341d  O_0241d    1      0.1446   132942.4 
+
+;CHx-CH(-O,-CH2) propylene or butylene carbonate (B3LYP-D3/6-311++G[2d,2p], 2016) 
+ C_1341d  C_2241a    1      0.1511   224262.4
+ C_1341d  C_3141a    1      0.1511   224262.4
+
+;DEC
+;O-C(=O) (TraPPE 2009)  
+ C_0332c  O_0241c    1      0.1344   143348.0
+;CHx-O (TraPPE 2004, 2009) 
+ C_2241e  O_0241c    1      0.1410   267776.0 
+ C_2241e  O_0241a    1      0.1410   267776.0 
+;CHx-CHy (TraPPE 2004) 
+ C_3141a  C_2241e    1      0.1540   224262.4
+;DME
+ C_3141e  O_0241a    1      0.1410   267776.0 
+;C_3141e  O_0241c    1      0.1410   267776.0
+ C_2241c  O_0241c    1      0.1410   267776.0
+;C_2241e  O_0241c    1      0.1410   267776.0
+;CHx-CHy (TraPPE 2004)
+ C_2241c  C_2241c    1      0.1540   224262.4
+ C_2241e  C_2241e    1      0.1540   224262.4
+;DMC
+;CHx-O (TraPPE 2004, 2009)
+C_3141e  O_0241c     1      0.1410   267776.0
+
+
+;PF6
+ P_0661a  F_0111a    1      0.1606   310000.0
+
+[ angletypes ]
+;i        j        k        type     theta0    k
+
+;EC
+;O=C-O (Carbonates, Masia 2004) 
+ O_0132a  C_0332c  O_0241d    1      125.000   298.860
+;CHx-O-C(=O) (Cyclic carbonates, Masia 2004) 
+ C_2241d  O_0241d  C_0332c    1      108.100   448.730
+ C_1341d  O_0241d  C_0332c    1      108.100   448.730
+;O-C(=O)-O (Cyclic carbonates, Masia 2004) 
+ O_0241d  C_0332c  O_0241d    1      110.200   584.670
+;CHy-CHx-O (Cyclic carbonates, Masia 2004) 
+ C_2241d  C_2241d  O_0241d    1      102.100   498.270
+ C_1341d  C_2241d  O_0241d    1      102.100   498.270
+ C_2241d  C_1341d  O_0241d    1      102.100   498.270
+
+;DEC
+;O=C-O (Carbonates, Masia 2004) 
+ O_0132a  C_0332c  O_0241c    1      125.000   298.860
+;CHx-C-O (Kamath 2004, TraPPE 2009) 
+ C_2241e  C_0332c  O_0241c    1      111.000   293.500
+;CHx-CHy-O (TraPPE 2004) 
+ C_3141a  C_2241e  O_0241c    1      112.000   418.210
+ C_3141a  C_1341d  O_0241d    1      112.000   418.210
+ C_3141a  C_1341d  O_0241d    1      112.000   418.210
+;O-C(=O)-O (Cyclic carbonates, Masia 2004) 
+ O_0241c  C_0332c  O_0241c    1      110.200   584.670
+;CHx-O-C(=O) (TraPPE 2006, 2009) 
+ C_2241e  O_0241a  C_0332c    1      115.000   519.650
+ C_2241e  O_0241c  C_0332c    1      115.000   519.650
+ 
+;DMC
+;CHx-O-C(=O) (TraPPE 2006, 2009)
+  C_3141e  O_0241a  C_0332a    1     115.000   519.650
+  C_3141e  O_0241a  C_0332c    1     115.000   519.650
+  C_3141e  O_0241c  C_0332a    1     115.000   519.650
+  C_3141e  O_0241c  C_0332c    1     115.000   519.650
+;DME
+;CHx-O-CHy (TraPPE, 2004) 
+ C_3141e  O_0241a  C_2241e    1      112.000   502.190
+;CHx-CH-CHy (TraPPE 2004)
+ C_2241e  C_2241e  O_0241a    1      112.000   418.210
+;PC
+;CHx-CH-CHy (TraPPE 2004) 
+ C_2241d  C_1341d  C_3141a    1      112.000   519.650
+
+;PF6
+ F_0111a  P_0661a  F_0111a    1       90.000  1165.000
+
+[ dihedraltypes ]
+;i        j        k        l        type       a0        a1        a2        a3        a4        a5 
+;EC
+;O=C-O-CHx (TraPPE 2009)
+ O_0132a  C_0332c  O_0241d  C_2241d    3       19.113     2.717   -22.834     1.004     0.000     0.000
+ O_0132a  C_0332c  O_0241d  C_1341d    3       19.113     2.717   -22.834     1.004     0.000     0.000
+;C-O-CH2-CH2 cyclic carbonate (Fit to B3LYP-D3 ethylene-carbonate (EC), constraint method) 
+ C_0332c  O_0241d  C_2241d  C_2241d    3        5.228    25.011     3.180   -32.497     5.652    -6.574
+ C_0332c  O_0241d  C_1341d  C_1341d    3        5.228    25.011     3.180   -32.497     5.652    -6.574
+ C_0332c  O_0241d  C_1341d  C_2241d    3        5.228    25.011     3.180   -32.497     5.652    -6.574
+ C_0332c  O_0241d  C_2241d  C_1341d    3        5.228    25.011     3.180   -32.497     5.652    -6.574
+;O-C(=O)-O-CHx (Fit to B3LYP-D3 diethyl-carbonate (DEC), 2017)
+ O_0241d  C_0332c  O_0241d  C_2241d    3       10.950     3.466   -16.614    -4.072     5.760     0.510
+ O_0241d  C_0332c  O_0241d  C_1341d    3       10.950     3.466   -16.614    -4.072     5.760     0.510
+ O_0241d  C_0332c  O_0241d  C_2241e    3       10.950     3.466   -16.614    -4.072     5.760     0.510
+ O_0241d  C_0332c  O_0241d  C_3141e    3       10.950     3.466   -16.614    -4.072     5.760     0.510
+;O-CH2-CH2-O cyclic carbonate (Fit to B3LYP-D3 ethylene-carbonate (EC), constraint method) 
+ O_0241d  C_2241d  C_2241d  O_0241d    3        1.674    35.528   -27.168     7.943    -7.653   -10.324 
+ O_0241d  C_1341d  C_2241d  O_0241d    3        1.674    35.528   -27.168     7.943    -7.653   -10.324
+ 
+;PC
+;C-O-CH-CHx (Fit to B3LYP-D3 propylene-carbonate (PC), constraint method) 
+ C_0332c  O_0241d  C_1341d  C_2241a    3       27.166   -10.507    10.026   -17.276    -5.203    -4.206
+ C_0332c  O_0241d  C_1341d  C_3141a    3       27.166   -10.507    10.026   -17.276    -5.203    -4.206
+
+;O-CH2-CH-CHx (Fit to B3LYP-D3 propylene-carbonate (PC), constraint method) 
+ O_0241d  C_2241d  C_1341d  C_2241a    3      -18.135     8.103    14.778   -27.260    13.931     8.583
+ O_0241d  C_2241d  C_1341d  C_3141a    3      -18.135     8.103    14.778   -27.260    13.931     8.583
+
+;DEC
+;O=C-O-CHx (TraPPE 2009)
+ O_0132a  C_0332c  O_0241c  C_2241e    3       19.113     2.717   -22.834     1.004     0.000     0.000
+;C(=O)-O-CH2-CHx (Fit to B3LYP-D3 diethyl-carbonate (DEC), 2017) 
+ C_0332c  O_0241c  C_2241e  C_3141a    3        0.623    10.230     0.944   -11.108    -3.496     2.807
+;O-C(=O)-O-CHx (Fit to B3LYP-D3 diethyl-carbonate (DEC), 2017) 
+ O_0241c  C_0332c  O_0241c  C_2241e    3       10.950     3.466   -16.614    -4.072     5.760     0.510
+ 
+;DMC
+;O=C-O-CHx (TraPPE 2009) 
+ O_0132a  C_0332c  O_0241c  C_3141e    3       19.113     2.717   -22.834     1.004     0.000     0.000
+;O-C(=O)-O-CHx (Fit to B3LYP-D3 diethyl-carbonate (DEC), 2017) 
+ O_0241c  C_0332c  O_0241c  C_3141e    3       10.950     3.466   -16.614    -4.072     5.760     0.510
+
+;DME
+;CH2e-CH2e-O-CH3e (github.com/sb8, 2017) 
+ C_2241e  C_2241e  O_0241a  C_3141e    3        4.424     9.544     8.513   -28.496    -1.994     8.009
+;O-CH2e-CH2e-O (github.com/sb8, 2017) 
+ O_0241a  C_2241e  C_2241e  O_0241a    3        3.311    18.889     8.127   -33.520     2.177     1.016
+
+
+
