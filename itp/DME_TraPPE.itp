@@ -1,0 +1,51 @@
+
+[ moleculetype ]
+; Name   nrexcl
+DME       3
+
+[ atoms ]
+;  nr   type       resnr  resid  atom  cgnr  charge    mass
+    1   C_3141e     1    DME      C1    1    0.2036    15.0350
+    2   O_0241a     1    DME      O2    1   -0.4278    15.9994
+    3   C_2241e     1    DME      C3    1    0.2242    14.0270
+    4   C_2241e     1    DME      C4    1    0.2242    14.0270
+    5   O_0241a     1    DME      O5    1   -0.4278    15.9994
+    6   C_3141e     1    DME      C6    1    0.2036    15.0350
+
+;
+;        
+;   C1     C3       O5
+;     \  /    \   /   \
+;      O2      C4       C6
+;
+
+[ bonds ]
+;  ai   aj  funct
+    1    2    1
+    2    3    1
+    3    4    1
+    4    5    1
+    5    6    1
+
+
+[ pairs ]
+    1    4    1
+    2    5    1
+    3    6    1
+
+
+[ angles ]
+;  ai   aj   ak  funct
+    1    2    3    1
+    2    3    4    1
+    3    4    5    1
+    4    5    6    1
+
+
+[ dihedrals ]
+;  ai   aj   ak   al  func
+    1    2    3    4    3
+    2    3    4    5    3
+    3    4    5    6    3
+
+
