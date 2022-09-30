@@ -1,0 +1,9 @@
+[ moleculetype ]
+; Name nrexcl 
+  Li   3
+
+[ atoms ] 
+; nr type resnr resid atom cgnr charge  mass 
+   1 LIP  1     LIP   LI   1    0.8000  6.9410 
+
+

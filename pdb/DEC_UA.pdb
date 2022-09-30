@@ -1,0 +1,21 @@
+REMARK  FOR INFORMATIONS, PLEASE CONTACT:                                             
+REMARK  ZOETE VINCENT                                                                 
+REMARK  VINCENT.ZOETE_AT_ISB-SIB.CH                                                   
+REMARK  SWISS INSTITUTE OF BIOINFORMATICS                                             
+REMARK  MOLECULAR MODELING GROUP                                                      
+REMARK  QUARTIER SORGE - BATIMENT GENOPODE                                            
+REMARK  CH-1015 LAUSANNE                                                              
+REMARK  SWITZERLAND                                                                   
+REMARK  T: +41 21 692 4082                                                            
+REMARK ****************************************************************               
+REMARK   DATE:     1/22/21     10: 9:37      CREATED BY USER: vzoete                  
+ATOM      1  O1  DEC     1       0.000   0.000   0.000  1.00  0.00      O 
+ATOM      2  C2  DEC     1       0.036  -1.225  -0.000  1.00  0.00      C 
+ATOM      3  O3  DEC     1      -1.108  -1.949   0.000  1.00  0.00      O 
+ATOM      4  O4  DEC     1       1.222  -1.879   0.000  1.00  0.00      O
+ATOM      5  C5  DEC     1      -2.357  -1.373  -0.000  1.00  0.00      C
+ATOM      6  C6  DEC     1       2.435  -1.230  -0.000  1.00  0.00      C 
+ATOM      7  C7  DEC     1      -3.413  -2.457   0.000  1.00  0.00      C 
+ATOM      8  C8  DEC     1       3.554  -2.250  -0.000  1.00  0.00      C 
+TER       9      DEC      1
+END
