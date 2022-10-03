@@ -4,13 +4,13 @@
 
 [ atoms ]
 ;  nr        type    res     resname    atom  cgnr      charge
-    1        P_0661a   1         _PF       P1     1      1.072
-    2        F_0111a   1         _PF       F1     2     -0.312
-    3        F_0111a   1         _PF       F2     3     -0.312
-    4        F_0111a   1         _PF       F3     4     -0.312
-    5        F_0111a   1         _PF       F4     5     -0.312
-    6        F_0111a   1         _PF       F5     6     -0.312
-    7        F_0111a   1         _PF       F6     7     -0.312
+    1        P_0661a   1         _PF       P1     1      1.1390
+    2        F_0111a   1         _PF       F1     2     -0.3315
+    3        F_0111a   1         _PF       F2     3     -0.3315
+    4        F_0111a   1         _PF       F3     4     -0.3315
+    5        F_0111a   1         _PF       F4     5     -0.3315
+    6        F_0111a   1         _PF       F5     6     -0.3315
+    7        F_0111a   1         _PF       F6     7     -0.3315
 
 [ bonds ]
 ;   i     j  type
