@@ -1,7 +1,7 @@
 [ bondtypes ]
-;i        j        type     b0       kb
+;i        j        type     b0 (nm)  kb (kJ/mol)
 ;EC
-;CH2-O(-C=O) cyclic carbonate (Masia 2004) 
+;CH2-O(-C=O) cyclic carbonate (Masia, J. Phys. Chem. B 2004, 108, 2016-2027) 
  C_2241d  O_0241d    1      0.1430   132942.4
 ;C=O acrylate, carbonate (TraPPE 2009, Masia 2004 force constant) 
  C_0332c  O_0132a    1      0.1200   407329.1 
