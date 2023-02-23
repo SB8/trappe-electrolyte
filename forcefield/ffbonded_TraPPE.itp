@@ -49,29 +49,29 @@ C_3141e  O_0241c     1      0.1410   267776.0
 ;i        j        k        type     theta0    k
 
 ;EC
-;O=C-O (Carbonates, Masia 2004) 
- O_0132a  C_0332c  O_0241d    1      125.000   298.860
-;CHx-O-C(=O) (Cyclic carbonates, Masia 2004) 
- C_2241d  O_0241d  C_0332c    1      108.100   448.730
- C_1341d  O_0241d  C_0332c    1      108.100   448.730
-;O-C(=O)-O (Cyclic carbonates, Masia 2004) 
- O_0241d  C_0332c  O_0241d    1      110.200   584.670
-;CHy-CHx-O (Cyclic carbonates, Masia 2004) 
- C_2241d  C_2241d  O_0241d    1      102.100   498.270
- C_1341d  C_2241d  O_0241d    1      102.100   498.270
- C_2241d  C_1341d  O_0241d    1      102.100   498.270
+;O=C-O (Carbonates, Masia/Amber 2004) 
+ O_0132a  C_0332c  O_0241d    1      125.000   630.947
+;CHx-O-C(=O) (Cyclic carbonates, Masia/Amber 2004) 
+ C_2241d  O_0241d  C_0332c    1      108.100   518.816
+ C_1341d  O_0241d  C_0332c    1      108.100   518.816
+;O-C(=O)-O (Cyclic carbonates, Masia/Amber 2004) 
+ O_0241d  C_0332c  O_0241d    1      110.200   605.843
+;CHy-CHx-O (Cyclic carbonates, Masia/Amber 2004) 
+ C_2241d  C_2241d  O_0241d    1      102.100   567.350
+ C_1341d  C_2241d  O_0241d    1      102.100   567.350
+ C_2241d  C_1341d  O_0241d    1      102.100   567.350
 
 ;DEC
-;O=C-O (Carbonates, Masia 2004) 
- O_0132a  C_0332c  O_0241c    1      125.000   298.860
+;O=C-O (Carbonates, Masia/Amber 2004) 
+ O_0132a  C_0332c  O_0241c    1      125.000   630.947
 ;CHx-C-O (Kamath 2004, TraPPE 2009) 
- C_2241e  C_0332c  O_0241c    1      111.000   293.500
+ C_2241e  C_0332c  O_0241c    1      111.000   293.500 ; unused?
 ;CHx-CHy-O (TraPPE 2004) 
  C_3141a  C_2241e  O_0241c    1      112.000   418.210
  C_3141a  C_1341d  O_0241d    1      112.000   418.210
  C_3141a  C_1341d  O_0241d    1      112.000   418.210
-;O-C(=O)-O (Cyclic carbonates, Masia 2004) 
- O_0241c  C_0332c  O_0241c    1      110.200   584.670
+;O-C(=O)-O (Cyclic carbonates, Masia/Amber 2004) 
+ O_0241c  C_0332c  O_0241c    1      110.200   605.843
 ;CHx-O-C(=O) (TraPPE 2006, 2009) 
  C_2241e  O_0241a  C_0332c    1      115.000   519.650
  C_2241e  O_0241c  C_0332c    1      115.000   519.650

@@ -39,7 +39,7 @@ Gromacs molecular dynamics parameter (mdp) files. mdp_NPT_eq.mdp is for equilibr
 
 | Molecules | Bond | r<sub>b</sub> [nm] | Ref |
 |---|---|---|---|
-| EC, PC | O1=C2 (O=C) | 0.12  | [2] |
+| EC, PC | O1=C2 (O=C) | 0.120 | [2] |
 | EC, PC | C2-O3 (C-O) | 0.136 | [4] |
 | EC, PC | O3-C5 (O-CH<sub>2</sub>) | 0.143 | [4] |
 | EC     | C5-C6 (CH<sub>2</sub>-CH<sub>2</sub>) | 0.152 | [4] |
@@ -50,6 +50,9 @@ Gromacs molecular dynamics parameter (mdp) files. mdp_NPT_eq.mdp is for equilibr
 Note: Very similar bond types (e.g. EC CH<sub>2</sub>-CH<sub>2</sub> and PC CH<sub>2</sub>-CH) could be combined in a future release
 
 ### Angles
+
+| Molecules | Angle | $\theta_0$ | $k_\theta$ [kJ mol<sup>-1</sup> rad<sup>-2</sup>] | Ref |
+|-----------|-------|------------|-----------------------------|-----|
 
 ### Dihedrals
 
